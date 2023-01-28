@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('First') { 
             steps { 
-                echo "First"
+                echo "First Application"
             }
         }
         stage('Second'){
