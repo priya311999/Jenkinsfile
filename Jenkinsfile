@@ -4,7 +4,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('First') { 
+        stage('First Application') { 
             steps { 
                 echo "First"
             }
